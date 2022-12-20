@@ -1,0 +1,192 @@
+.outer-main2{
+    height: 683px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    display: flex;
+    justify-content: center;
+    background-color: #EFEFEF;
+
+}
+.image-main2{
+    height: 550px;
+    width: 700px;
+    margin-left:60px ;
+    margin-right:70px ;
+    background-position: center;
+   background-repeat: no-repeat;
+   /* background-size: cover; */
+   border-radius: 10px;
+
+}
+.camponyDiscription{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.text-main2{
+   padding:10px ;
+   margin-left:30px ;
+   margin-top: 10px;
+}
+.compony-solution-products{
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 40px;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.campony-solution{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.campony-solution-products-logo{
+    font-size: 2.5rem;
+    margin: 5px;
+    color: rgb(228, 132, 132);
+    margin-bottom: 5px !important;
+}
+.read-more-button{
+    padding: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 185px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f7d9c4;
+    color: black ;
+    font-weight: 600;
+    margin: 9.6px;
+}
+
+.read-more-button:hover{
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
+@media only screen and (max-width:1085px){
+    .image-main2{
+        height: 550px;
+        width: 600px;
+        margin-left:30px ;
+        margin-right:50px ;
+    }
+    
+}
+@media only screen and (max-width:992px){
+    .outer-main2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;    
+        height: 1200px;
+        padding: 50px;
+    }
+    .image-main2{
+        /* margin-top: 100px; */
+        margin-left:0px ;
+        margin-right:0px ;
+        /* margin-bottom: 100px; */
+    }
+    .text-main2{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 0px;
+        height: 550px;
+        width: 600px;
+    }
+    .compony-solution-products{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .read-more-button{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .camponyDiscription{
+    font-size: 3rem;
+
+    }
+    
+}
+@media only screen and (max-width:630px){
+    .outer-main2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .image-main2{
+        height: 400px;
+        width: auto;
+    }
+    .text-main2{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 0px;
+        text-align: center;
+        width: 500px;
+    }
+    .campony-solution{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .camponyDiscription{
+        font-size: 2rem
+    }
+}
+
+@media only screen and (max-width:520px){
+
+    .outer-main2{
+        height: 1400px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        padding-top: 0px;
+        }
+        .image-main2 {
+        width: 310px;
+        }
+        .text-main2{
+        width: 310px;
+        }
+        
+        .camponyDiscription{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        }
+        .inner-icon{
+        display: flex;
+        margin-bottom: 5px;
+        }
+
+        .compony-solution-products{
+            margin: 0px 0px 10px 0px ;
+        }
+        
+        .campony-solution{
+        display: flex;
+        flex-direction: column;
+        }
+        .camponyDiscription{
+        font-size: 2rem;
+        }
+        
+        .text-main2{
+        padding-top: 0px;
+        }
+        .company-h5-description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        }
+}

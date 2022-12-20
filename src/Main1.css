@@ -1,0 +1,78 @@
+.outer-main1{
+   height: 550px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   position: relative;
+}
+.inner-main1{
+    position: absolute;
+    width: 600px;
+    margin: 80px;
+    padding: 10px;
+
+}
+.text-main1{
+    color: white;
+}
+.compony-description{
+    opacity: 0.5;
+}
+.text-main1>h5,h1{
+    margin-bottom: 20px;
+}
+.service-button,.learnmore-button{
+    padding: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 185px;
+    border-radius: 5px;
+}
+.learnmore-button{
+background: transparent;
+border:0.5px solid #464646;
+color: white;
+}
+.service-button{
+    border: none;
+    margin-right: 15px;
+}
+
+.service-button{
+    background-color: #f7d9c4;
+    color: black ;
+    font-weight: 600;
+}
+.learnmore-button:hover{
+    background-color: #f7d9c4;
+    color: black;
+    border: none;
+    font-weight: 600;
+    transition: 0.5s;
+
+}
+
+@media only screen and (max-width: 768px) {
+.inner-main1{
+    text-align: center;
+    width:100%;
+    margin:0px ;
+    padding: 50px;
+}
+}
+@media only screen and (max-width: 460px) {
+    .button-main1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-button{
+       padding-left: 10px;
+       padding-right: 10px;
+       margin-right: 0px;
+       width: 185px;
+       margin-bottom: 20px;
+}
+}
