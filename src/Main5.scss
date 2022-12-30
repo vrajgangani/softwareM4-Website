@@ -1,10 +1,13 @@
+
+@import 'websiteColor';
+
 .card-body-image{
     width: 100%;
     height: 225px;
     object-fit: cover;
 }
 .core-features{
-    background-color: #EFEFEF;
+    background-color:$web-backgroud;
 }
 .custom-features-card{
     background-color: white;
@@ -30,4 +33,29 @@
         padding: 5px;
         margin: 15px;
     }
+}
+@media screen and (min-width:991px) {
+    .career-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        
+    }
+    .careers-tools{
+        width: 300px;
+        margin-right: 20px;
+    }
+    .text-careers{
+       width: 500px;
+    }
+    .card-career-container{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .career-container{
+        padding: 10px;
+    }
+
 }

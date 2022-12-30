@@ -1,3 +1,5 @@
+@import 'websiteColor';
+
 .section-padding{
     padding: 100px 10px;
 }
@@ -5,7 +7,7 @@
     background-color:white;   
 }
 .about-product{
-    background-color: #efefef;
+    background-color:$web-backgroud;
 }
 
 

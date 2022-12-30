@@ -9,7 +9,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Logo from "./Images/logo.png";
 
-import "./Navbar.css";
+import "./Navbar.scss";
 
 const Naavbar = () => {
   return (
@@ -59,7 +59,7 @@ const Naavbar = () => {
                     Contact
                   </Nav.Link>
                 </Nav>
-                <ul className="custom-navbar-icons">
+                <ul className="custom-navbar-icons text-center">
                   <li>
                     <a href="#facebook" alt="facebook-icon">
                       <Icon.Facebook color="black" size="1.7rem" />

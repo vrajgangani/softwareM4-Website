@@ -1,10 +1,12 @@
+@import 'websiteColor';
+
 .outer-main2{
     height: 683px;
     padding-top: 112px;
     padding-bottom: 112px;
     display: flex;
     justify-content: center;
-    background-color: #EFEFEF;
+    background-color: $web-backgroud;
 
 }
 .image-main2{
@@ -14,7 +16,6 @@
     margin-right:70px ;
     background-position: center;
    background-repeat: no-repeat;
-   /* background-size: cover; */
    border-radius: 10px;
 
 }
@@ -28,7 +29,7 @@
    margin-top: 10px;
 }
 .compony-solution-products{
-    background-color: #FFFFFF;
+    background-color:$web-backgroud;
     width: 50px;
     height: 40px;
     padding: 70px;
@@ -57,7 +58,7 @@
     width: 185px;
     border-radius: 5px;
     border: none;
-    background-color: #f7d9c4;
+    background-color: $btn-backgroud-hover;
     color: black ;
     font-weight: 600;
     margin: 9.6px;
@@ -86,10 +87,8 @@
         padding: 50px;
     }
     .image-main2{
-        /* margin-top: 100px; */
         margin-left:0px ;
         margin-right:0px ;
-        /* margin-bottom: 100px; */
     }
     .text-main2{
         margin-top: 20px;

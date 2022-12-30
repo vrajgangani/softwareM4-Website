@@ -1,0 +1,77 @@
+
+@import 'websiteColor';
+
+.team{
+    background-color: $web-backgroud;
+}
+
+.team-social{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:$web-backgroud;
+    cursor: pointer;
+}
+.team-social:hover{
+    background-color: $btn-backgroud-hover;
+    color: white;
+    cursor: pointer;
+
+}
+.custom-team-card{
+    border-bottom: 0px;
+}
+
+
+
+.office-info-0{
+    padding-top:50px;
+    padding-bottom: 100px;
+    background-color: $web-backgroud;
+
+}
+.custom-office{
+    position: relative;
+}
+.office-info{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -3rem;
+}
+.office-image{
+    object-fit: cover;
+}
+@media screen and (max-width:768px) {
+    .office-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .office-info{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        position: absolute;
+        bottom: -15rem;
+        padding:10px 70px 10px 70px ;
+    }
+    .about-office{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .office-info-0{
+        padding: 0px 0px 250px 0px;
+    }
+    .preview-button{
+        padding:10px 30px 10px 30px ;
+    }
+    
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Main2.css";
+import "./Main2.scss";
 import Background1 from "./Images/features1.jpg";
 import { HandIndexThumb, Palette, PeopleFill } from "react-bootstrap-icons";
 
